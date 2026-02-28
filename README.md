@@ -1,1 +1,3 @@
-# visual_cryptography
+# Machine learning project 
+Author - Arymana baliyan 
+
