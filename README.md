@@ -1,3 +1,3 @@
 # Machine learning project 
-Author - Arymana baliyan 
+Author - Aryaman baliyan
 
