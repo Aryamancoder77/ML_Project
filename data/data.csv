@@ -1,0 +1,12 @@
+import pandas as pd
+
+fake = pd.read_csv("Fake.csv")
+real = pd.read_csv("True.csv")
+
+fake['label'] = 0
+real['label'] = 1
+
+df = pd.concat([fake, real])
+
+df = df[['title', 'text', 'label']]
+df.to_csv("data/dataset.csv", index=False)
